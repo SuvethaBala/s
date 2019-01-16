@@ -6,11 +6,11 @@ printf("Enter the num");
 scanf("%d",&a) ;
 if(a>0)
 {
-printf("positive number");
+printf("Positive");
 }
 else if(a<0)
 {
-printf("odd number");
+printf("Negative ");
 }
 else
 {
