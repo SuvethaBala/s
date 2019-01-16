@@ -4,16 +4,16 @@ void main()
 int a; 
 printf("Enter the num");
 scanf("%d",&a) ;
-if(a>0)
+if(a%2==0)
 {
-printf("Positive");
+printf("Even");
 }
-else if(a<0)
+else if(a%2!=0)
 {
-printf("Negative ");
+printf("Odd");
 }
 else
 {
-printf("zero");
+printf("invalid");
 }
 }
