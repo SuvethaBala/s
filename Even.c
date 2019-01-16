@@ -2,15 +2,15 @@
 void main()
 {
 int a; 
-printf("Enter the num");
+printf("Input:");
 scanf("%d",&a) ;
 if(a%2==0)
 {
-printf("Even");
+printf("Output:Even");
 }
 else if(a%2!=0)
 {
-printf("Odd");
+printf("Output:Odd");
 }
 else
 {
