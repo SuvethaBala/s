@@ -2,10 +2,9 @@
  
 void main()
 {
-  char ch;
+  char ch='d';
  
-  printf("Input:\n");
-  scanf("%c", &ch);
+  printf("Input: %c",&c) 
  
   if (ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E' || ch == 'i' || ch == 'I' || ch =='o' || ch=='O' || ch == 'u' || ch == 'U')
     printf("Vowel", ch);
