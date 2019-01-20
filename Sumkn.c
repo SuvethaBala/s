@@ -7,10 +7,12 @@ scanf("%d",&k);
 while(i<=n) 
 {
 scanf("%d",&a[i]);
+i++;
 }
 while(i<=k) 
 {
 sum=sum+a[i];
+i++;
 }
 printf("%d",sum); 
 }
