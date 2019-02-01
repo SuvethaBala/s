@@ -1,3 +1,3 @@
-x=raw_input()
+x=int(input())
 a,b=x.split()
 print(a**b)
