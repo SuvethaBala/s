@@ -2,7 +2,7 @@ a=int(raw_input())
 
 b=int(raw_input())
 
-for num in range(a+1,b):
+for num in range(a,b+1):
 
    if num > 1:
 
