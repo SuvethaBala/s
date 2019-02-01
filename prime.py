@@ -14,10 +14,10 @@ while i<n:
 
 if(prime==1):
 
-	print("prime")
+	print("yes")
 
 else:
 
-	print("not")
+	print("no")
 
 	
