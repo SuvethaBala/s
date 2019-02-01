@@ -1,2 +1,2 @@
 x=input("")
-print("\n",a+".")
+print("\n",x+".")
