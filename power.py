@@ -1,3 +1,3 @@
-x=int(input())
-a,b=x.split()
-print(a**b)
+a,b=input().split()
+pow=int(n)**int(k)
+print(pow)
