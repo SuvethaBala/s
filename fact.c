@@ -6,6 +6,6 @@ void main()
   for(i=1;i<=a;i++)
   {
     fact=fact*i;
-    printf("%d",fact);
   }
+  printf("%d",fact);
 }
