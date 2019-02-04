@@ -6,19 +6,20 @@ void main()
  scanf("%d",&n)
  printf("Input %d elements in the array :\n",n);
  for(i=0;i<n;i++)
+ {
  printf("element - %d : ",i);
  scanf("%d",&arr1[i]);
-}
+ }
  for(i=0; i<n; i++)
  {
-   ctr=0;
-   for(j=0; j<i-1; j++)
+  ctr=0;
+  for(j=0; j<i-1; j++)
+  {
+   if(arr1[i]==arr1[j])
     {
-      if(arr1[i]==arr1[j])
-        {
-         ctr++;
-         }
+     ctr++;
     }
+  }
    for(k=i+1; k<n; k++)
    {
      if(arr1[i]==arr1[k])
@@ -31,5 +32,4 @@ void main()
     printf("%d ",arr1[i]);
    }
    }
-    printf("\n\n");
 }
