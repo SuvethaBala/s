@@ -4,10 +4,10 @@ void main()
  int arr1[100], n,ctr=0;
  int i, j, k; 
  scanf("%d",&n)
- printf("Input %d elements in the array :\n",n);
+ printf("%d",n);
  for(i=0;i<n;i++)
  {
- printf("element - %d : ",i);
+ printf("%d",i);
  scanf("%d",&arr1[i]);
  }
  for(i=0; i<n; i++)
