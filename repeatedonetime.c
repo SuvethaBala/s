@@ -50,7 +50,7 @@ count++;
 }
 if(count==0)
 {
- printf("%d ",c[i]);
+printf("%d ",c[i]);
 }
 count=0;
 }
