@@ -13,7 +13,7 @@ for(i=0;i<n;i++)
 if(arr[i]==i)
 {
 f=1;
-printf("%d",i);
+printf("\t %d",i);
 }
 }
 if(f==0)
